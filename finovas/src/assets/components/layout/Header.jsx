@@ -75,7 +75,7 @@ export default function HeaderFinovasPillMega() {
       {/* MEGA MENU */}
       <div
         onMouseLeave={() => setMegaOpen(false)}
-        className={`absolute top-[72px] left-0 right-0 mx-6 rounded-3xl bg-black/40 backdrop-blur-md border-t border-black/10 shadow-xl hidden lg:block w-full transition-all duration-200 ease-in-out origin-top ${
+        className={`absolute top-[72px] left-0 right-0 mx-6 rounded-3xl bg-black/40 backdrop-blur-md border-t border-black/10 shadow-xl hidden lg:block transition-all duration-200 ease-in-out origin-top ${
           megaOpen 
             ? "opacity-100 translate-y-0 visible" 
             : "opacity-0 -translate-y-2 invisible"

@@ -6,7 +6,7 @@ import CookieConsent from '../common/Cookie.jsx';
 
 export default function MainLayout() {
   return (
-    <div className="flex flex-col min-h-screen bg-white text-gray-900 relative">
+    <div className="flex flex-col min-h-screen overflow-hidden bg-white text-gray-900 relative">
       <NavScroll />
       <Header />
       <main className="flex-grow">

@@ -7,10 +7,10 @@ export default function NavScroll() {
   const location = useLocation();
   
   const navItems = [
-    { name: 'Accueil', icon: Home, path: '/' },
-    { name: 'À propos', icon: User, path: '/about' },
-    { name: 'Message', icon: MessageCircleMore, path: '/message' },
-    { name: 'Contact', icon: Mail, path: '/contact' },
+    { name: 'Aide', icon: Home, path: '/' },
+    { name: 'Qui sommes-nous ?', icon: User, path: '/about' },
+    { name: 'Comment ça marche ?', icon: MessageCircleMore, path: '/message' },
+    { name: 'FAQ', icon: Mail, path: '/faq' },
   ];
 
   return (
