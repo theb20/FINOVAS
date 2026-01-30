@@ -1,0 +1,30 @@
+{
+    "name":  "FINOVAS",
+    "short_name":  "Finovas",
+    "description":  "Finovas conçoit et déploie des solutions digitales innovantes à forte valeur ajoutée, spécialisées dans la monétisation mobile, les services VAS et les infrastructures de paiement à grande échelle.",
+    "start_url":  "/",
+    "scope":  "/",
+    "display":  "standalone",
+    "background_color":  "#081351",
+    "theme_color":  "#081351",
+    "lang":  "fr-FR",
+    "orientation":  "portrait",
+    "categories":  [
+                       "business",
+                       "productivity"
+                   ],
+    "icons": [
+    {
+      "src": "/favicon/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

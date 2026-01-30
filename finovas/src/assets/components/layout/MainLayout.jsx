@@ -1,0 +1,19 @@
+import { Outlet } from 'react-router-dom';
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+import NavScroll from '../layout/NavScroll.jsx';
+import CookieConsent from '../common/Cookie.jsx';
+
+export default function MainLayout() {
+  return (
+    <div className="flex flex-col min-h-screen bg-white text-gray-900 relative">
+      <NavScroll />
+      <Header />
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+      <CookieConsent /> 
+      <Footer />
+    </div>
+  );
+}
