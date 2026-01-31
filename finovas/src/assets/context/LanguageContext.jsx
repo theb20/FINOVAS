@@ -47,13 +47,13 @@ const translations = {
       highlight_cta: "Voir les innovations"
     },
     hero: {
-      label: "Finovas · Digital & VAS Solutions",
+      label: "Finovas · Solutions Digitales & SVA",
       title_line1: "Stimuler la croissance mobile",
-      title_line2: "grâce à l’innovation digitale",
-      description: "Finovas accompagne les entreprises et opérateurs dans la conception, le déploiement et la monétisation de services digitaux et VAS à fort impact sur les marchés mobiles.",
-      cta_demo: "Demander une démo",
+      title_line2: "grâce à l’innovation numérique",
+      description: "Finovas accompagne les entreprises et opérateurs dans la conception, le déploiement et la monétisation de services à valeur ajoutée à fort impact sur les marchés mobiles.",
+      cta_demo: "Planifier un appel",
       cta_solutions: "Découvrir nos solutions",
-      tags: ["VAS & contenus digitaux", "Monétisation mobile", "Mobile Money & DCB", "Solutions scalables"],
+      tags: ["SVA & contenus numériques", "Monétisation mobile", "Mobile Money & DCB", "Solutions scalables"],
       scroll: "Scrollez"
     },
     about: {
